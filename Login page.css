@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     fill-opacity: 0.4;
-    background-image: url(./bg-blur2.png);
+    background-image: url(bg-blur2.png);
     background-color: rgb(255, 255, 255);
     justify-content: center;
 }
