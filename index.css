@@ -116,7 +116,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     fill-opacity: 0.4;
-    background-image: url(bg blur.png);
+    background-image: url(/bg blur.png);
     background-color: rgb(255, 255, 255)
 }
 
