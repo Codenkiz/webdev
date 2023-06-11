@@ -1,0 +1,251 @@
+body {
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: 0.4;
+    background-image: url(Images/bg-blur2.png);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.cut {
+    background-color: #263534;
+
+}
+
+.cut1 {
+    background-color: #263534;
+
+}
+
+.cont {
+    margin-top: 15px;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+.cont typ1 {
+    margin-top: 40px;
+}
+
+.cont typ2 {
+    margin-top: 30px;
+}
+
+.form {
+    margin-left: 453px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 450px;
+    width: 450px;
+    padding: 35px;
+    opacity: 80%;
+}
+
+
+.title {
+    color: #263534;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: px;
+}
+
+.subtitle {
+    color: #263534;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    margin-top: 5px;
+}
+
+
+.input1 {
+    margin-top: 10px;
+    background-color: #7f9e9d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #263534;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+}
+
+.input2 {
+    margin-top: 45px;
+    background-color: #7f9e9d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #263534;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+}
+
+.placeholder {
+
+    color: #263534;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 8px;
+    position: absolute;
+}
+
+
+
+.placeholder1 {
+
+    margin-top: 44px;
+    color: #263534;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.submit {
+
+    margin-top: -80px;
+    background-color: #263534;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    font-size: medium;
+    outline: 0;
+    text-align: center;
+}
+
+.submit:hover {
+    background-color: #7f9e9d;
+}
+
+.submit:active {
+    background-color: #162524;
+}
+
+.font2 {
+    margin-top: 55px;
+    font-family: sans-serif;
+    color: #263534;
+}
+
+.font3 {text-align: center;
+    margin-top: 60px;
+    font-family: sans-serif;
+    color: #e2f1f1;
+}
+
+input[type=checkbox],
+input[type=radio] {
+
+    margin-top: 50px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 25px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: rgb(211, 53, 53);
+    margin-left: 115px;
+    font-weight: 500;
+
+}
+
+.link2 {
+    text-decoration: none;
+    color: rgb(180, 255, 180);
+    margin-left: 5px;
+    font-weight: 500;
+
+}
+
+/*
+.chk {
+    margin-top: 58px;
+    font-family: sans-serif;
+    position: relative;
+    font-size: 18x;
+    font-weight: bold;
+    color: #263534;
+    opacity: 0.7;
+}
+
+.remb {
+    margin-bottom: 20px;
+    padding-bottom: 200px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: sans-serif;
+    font-size: 18x;
+    font-weight: bold;
+    color: #263534;
+    opacity: 0.7;
+}
+
+
+    #checkbox {
+        font-family: sans-serif;
+        position: relative;
+        width: 20px;
+        height: 25px;
+    }
+*/
+
+img.arrwl {
+    margin-top: 5px;
+    filter: invert(91%) sepia(13%) saturate(190%) hue-rotate(71deg) brightness(106%) contrast(105%);
+    border-color: aliceblue;
+    width: 130%;
+}
+
+table.tab {
+    width: 100%;
+    max-width: 50%;
+}
+
+table.tab1 {
+    align-items: normal;
+
+}
+
+button.bth {
+    color: white;
+    margin-left: px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-radius: none;
+    padding: none;
+    border: none;
+    border-color: none;
+}
+
+button.bth:hover {
+    color: rgb(181, 243, 190);
+    background: none;
+    border: none;
+}

@@ -1,0 +1,226 @@
+body {
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: 0.4;
+    background-image: url(Images/bg-blur2.png);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.form {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 453px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 600px;
+    width: 450px;
+    padding: 35px;
+    opacity: 80%;
+}
+
+
+.cont typ1 {
+    margin-top: 50px;
+
+
+}
+
+.placeholder {
+
+    margin-top: 30px;
+    color: #263534;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.input1 {
+    margin-top: 30px;
+    background-color: #7f9e9d;
+    border-radius: 15px;
+    border: 0;
+    box-sizing: border-box;
+    color: #263534;
+    font-size: 18px;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    padding: 15px 20px;
+    display: grid;
+}
+
+.title {
+    color: #263534;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitle {
+    color: #263534;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    margin-top: 5px;
+    text-align: center;
+}
+
+a.login {
+    text-decoration: none;
+    color: rgb(255, 123, 0);
+
+}
+
+.sign-button {
+
+    position: relative;
+    background-color: #263534;
+    color: white;
+    text-decoration: none;
+    padding: 16px 135px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    top: 50px;
+    box-sizing: border-box;
+
+}
+
+.gsign-button {
+
+    position: relative;
+        background-color: #346d3b;
+        color: white;
+        text-decoration: none;
+        padding: 16px 106px;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        font-family: sans-serif;
+        top: 130px;
+        box-sizing: border-box;
+}
+
+.sign-button:hover {
+    background-color: rgb(130, 206, 142);
+}
+
+.gsign-button::after {
+    
+    color: white;
+    filter: invert(91%) sepia(13%) saturate(190%) hue-rotate(71deg) brightness(106%) contrast(105%);
+    margin-right: 5px;
+    content: url(Images/SVG/bolt.svg);
+    width: 25px;
+    height: 25px;
+}
+
+::-webkit-input-placeholder {
+    color: rgb(246, 255, 249);
+    opacity: 90%;
+}
+
+
+
+.gsign-button:hover {
+    background-color: rgb(130, 206, 142);
+}
+
+
+.googlelogo {
+    margin-top: 115px;
+    appearance: none;
+    background-color: none;
+    border: none;
+    border-color: none;
+
+
+}
+
+.glogo {
+    position: relative;
+    background-color: none;
+    color: none;
+    background: none;
+    border: none;
+    border-radius: none;
+    padding: none;
+
+}
+
+
+/**
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+***/
+
+.homepage {
+    content: url(Images/PNGs/home-buttong.png);
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(35deg) brightness(500%) contrast(101%);
+    width: 30px;
+    height: 30px;
+    border-color:
+
+}
+
+
+.ulclass {
+    justify-content: left;
+    background-color: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.lihome {
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+a.back-home {
+    text-decoration: none;
+    color: white;
+    top: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background: none;
+    border: none;
+    border-radius: none;
+    padding: none;
+    border: none;
+    border-color: none;
+}
+
+.back-home ::before {
+    content: '>';
+    display: inline-block;
+
+}
+.back-home:hover{
+    color: rgb(181, 243, 190);
+    padding: none;
+    border: none;
+    text-transform: none;
+    background: none;
+}
+
+.font3 {
+
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #263534;
+    text-align: justify;
+    line-height: 22px;
+}
