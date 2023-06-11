@@ -117,7 +117,7 @@ a.login {
     color: white;
     filter: invert(91%) sepia(13%) saturate(190%) hue-rotate(71deg) brightness(106%) contrast(105%);
     margin-right: 5px;
-    content: url(/SVG/bolt.svg);
+    content: url(./SVG/bolt.svg);
     width: 25px;
     height: 25px;
 }
